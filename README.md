@@ -80,7 +80,8 @@ For works related to the vast nature of the project reffer to:
 
 <!-- CONTRIBUTORS -->
 ## Contributors
-* [Arnav Zutshi](https://github.com/AsRaNi1/live-cctv)
+* [Arnav Zutshi](https://github.com/AsRaNi1)
+* [Samiul Sheik](https://github.com/Codingsam164)
 
 
 <!-- ACKNOWLEDGEMENTS AND REFERENCES -->
