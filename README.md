@@ -5,6 +5,7 @@ To detect any reasonable change in a live cctv to avoid large storage of data. O
 
 * [About the Project](#about-the-project)
   * [Tech Stack](#tech-stack)
+  * [File Structure](#file-structure)
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
@@ -28,6 +29,19 @@ The project uses:
 * [Python 3](https://www.python.org/download/releases/3.0/)
 * [OpenCV](https://opencv.org/)
 * [numpy](https://numpy.org/)
+
+### File Structure
+New_Live-CCTV
+ ┣ coco.txt
+ ┣ New_Live-CCTV.ipynb
+ ┣ yolov3-tiny.weights
+ ┗ yolov3.cfg
+ 
+Old_Live-CCTV
+ ┣ Main code
+ ┃ ┗ Live-CCTV.ipynb
+ ┗ Other Methods
+ ┃ ┗ Other Methods.ipynb
 
 
 ## Getting Started
