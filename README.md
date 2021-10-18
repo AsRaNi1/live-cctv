@@ -31,6 +31,7 @@ The project uses:
 * [numpy](https://numpy.org/)
 
 ### File Structure
+```
 New_Live-CCTV
  ┣ coco.txt
  ┣ New_Live-CCTV.ipynb
@@ -42,6 +43,7 @@ Old_Live-CCTV
  ┃ ┗ Live-CCTV.ipynb
  ┗ Other Methods
  ┃ ┗ Other Methods.ipynb
+ ```
 
 
 ## Getting Started
