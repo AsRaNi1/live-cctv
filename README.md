@@ -89,8 +89,8 @@ Output path:
 
 ## Results and Demo
 The project clearly identifies an object in the video frame and assigns a bounding box to it along with labels i.e classifying the object, it also records the relevant motion taking place in the video. The video is saved in the **Path** folder.  
-[**Result Screenshot**](result.png)
-[**New Result Video**](New_Output.avi)
+* [**Result Screenshot**](result.png)
+* [**New Result Video**](New_Output.avi)
 
 ## Future Work
 The motion tracking algorithm the current project uses is derived from Eucidean diatnce, but this can further be bettered by the use of feature vectors i.e adding a Conv-net and then linear regression to the Euclidean distance found between 2 consecutive frames of a video. Further, the project can be enhanced by making it a Realtime car tracker which will not only be able to identify defaulters while driving but will also be able to save their numberplate and then we will be able to track their vehicle using out program in various CCTV's:
