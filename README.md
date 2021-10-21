@@ -32,17 +32,23 @@ The project uses:
 
 ### File Structure
 ```
-New_Live-CCTV
- ┣ coco.txt
- ┣ New_Live-CCTV.ipynb
- ┣ yolov3-tiny.weights
- ┗ yolov3.cfg
+📦Old_Live-CCTV
+ ┣ 📂Other Methods
+ ┃ ┗ 📜Other Methods.ipynb
+ ┣ 📜ContourDetection.py
+ ┣ 📜Euclidean_dist.py
+ ┣ 📜Old_Main.py
+ ┗ 📜Read.me.txt
  
-Old_Live-CCTV
- ┣ Main code
- ┃ ┗ Live-CCTV.ipynb
- ┗ Other Methods
- ┃ ┗ Other Methods.ipynb
+📦Improved_Live-CCTV
+ ┣ 📜Bounding_boxes.py
+ ┣ 📜coco.txt
+ ┣ 📜Euclidean_dist.py
+ ┣ 📜Main.py
+ ┣ 📜Read.me.txt
+ ┣ 📜test.mp4
+ ┣ 📜yolov3-tiny.weights
+ ┗ 📜yolov3.cfg
  ```
 
 
