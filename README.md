@@ -13,6 +13,7 @@ To detect any reasonable change in a live cctv to avoid large storage of data. O
 * [Results and Demo](#results-and-demo)
 * [Future Work](#future-work)
 * [Troubleshooting](#troubleshooting)
+* [Mentors](#Mentors)
 * [Contributors](#contributors)
 * [Acknowledgements and Resources](#acknowledgements-and-resources)
 
@@ -106,12 +107,21 @@ The motion tracking algorithm the current project uses is derived from Eucidean 
   * Using an older Python version
   * One can change the threshold vale for movement detection, so choose a suitable one.
   * When giving the output path in command line be sure to add .avi, _Recording.avi_
+  
+
+## Mentors
+* Harsh Shah
+* Kush Kothari
+* Sahethi
+
 
 
 <!-- CONTRIBUTORS -->
 ## Contributors
 * [Arnav Zutshi](https://github.com/AsRaNi1)
 * [Samiul Sheik](https://github.com/Codingsam164)
+
+
 
 
 <!-- ACKNOWLEDGEMENTS AND REFERENCES -->
@@ -122,8 +132,3 @@ The motion tracking algorithm the current project uses is derived from Eucidean 
 * [Computer Vision basics](https://towardsdatascience.com/computer-vision-for-beginners-part-4-64a8d9856208)
 * [Contour Detection](https://learnopencv.com/contour-detection-using-opencv-python-c/)
 * [More Computer Vision](https://www.pyimagesearch.com/)
-
-
-
-
-
