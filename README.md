@@ -21,7 +21,7 @@ To detect any reasonable change in a live cctv to avoid large storage of data. O
 ## About The Project
 
 Aim and Description of project:
-The project aims at storing only relevant data in a CCTV camera (in this case a traffic camera) to prevent storage loss and also detects the object that is causing the change in a frame.
+The project aims at storing only relevant data in a CCTV camera (in this case a traffic camera) to prevent storage loss and also detects the object that is causing the change in a frame and classifies them
 
 ### Tech Stack
 The project uses:
@@ -31,6 +31,7 @@ The project uses:
 * [numpy](https://numpy.org/)
 
 ### File Structure
+File structure in dev branch.
 ```
 📦Old_Live-CCTV
  ┣ 📂Other Methods
@@ -74,16 +75,24 @@ git clone https://github.com/AsRaNi1/live-cctv.git
 ```
 
 ## Usage
-After cloning the repo, open the file and run the .ipynb in the Jupyter notebook
-
+After cloning the repo, open the file and run the Main file in each of the folders in the Command line
+Example:
+```
+$ Python Main.py
+```
+After running the main file, it will ask for the paths, so enter the paths as asked.
+```
+Input video file path:
+Output path:
+```
 
 ## Results and Demo
-The project clearly identifies an object in the video frame and assigns a bounding box to it, it also records the relevant motion taking place in the video. The video is saved in the **Users** folder with the name _Recording_.  
+The project clearly identifies an object in the video frame and assigns a bounding box to it along with labels i.e classifying the object, it also records the relevant motion taking place in the video. The video is saved in the **Path** folder.  
 [**Result Screenshot**](result.png)
+[**New Result Video**](New_Output.avi)
 
 ## Future Work
-The project has a vast usage for the future. This project uses cv2, but if using pretrained algorithms, object classification can be achieved. Integrating the project with darknet framework is another way to achieve object classification which can later be used to track numberplates of a car for traffic surveillance purposes. Another future development can be to integrating a speedometer and saving the images with the car number plate in the system so as to access the images of defaulters anytime.
-For works related to the vast nature of the project reffer to:
+The motion tracking algorithm the current project uses is derived from Eucidean diatnce, but this can further be bettered by the use of feature vectors i.e adding a Conv-net and then linear regression to the Euclidean distance found between 2 consecutive frames of a video. Further, the project can be enhanced by making it a Realtime car tracker which will not only be able to identify defaulters while driving but will also be able to save their numberplate and then we will be able to track their vehicle using out program in various CCTV's:
 
 * [Realtime car tracking](https://jivp-eurasipjournals.springeropen.com/articles/10.1186/s13640-018-0374-7)
 * [Using the project for self driving cars](https://www.researchgate.net/publication/348558210_Project_Report_on_the_Prototype_of_an_Automated_Self_Driving_Vehicle)
@@ -96,8 +105,7 @@ For works related to the vast nature of the project reffer to:
   * numpy not installed in conda
   * Using an older Python version
   * One can change the threshold vale for movement detection, so choose a suitable one.
-  * Make sure Jupyter notebook has permission to open the webcam
-  * When using a custom video be sure to write it as (r"User\address\vid.amp4")
+  * When giving the output path in command line be sure to add .avi, _Recording.avi_
 
 
 <!-- CONTRIBUTORS -->
