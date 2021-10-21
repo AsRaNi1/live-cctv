@@ -1,5 +1,7 @@
 # LIVE-CCTV
-To detect any reasonable change in a live cctv to avoid large storage of data. Once, we notice a change, our goal would be track that object or person causing it. We would be using Computer vision concepts. Our major focus will be on Deep Learning and will try to add as many features in the process. 
+To detect any reasonable change in a live cctv to avoid large storage of data. Once, we notice a change, our goal would be track that object or person causing it. We would be using Computer vision concepts. Our major focus will be on Deep Learning and will try to add as many features in the process.
+
+![image](https://user-images.githubusercontent.com/84843295/138285360-ca8120ba-ac48-4763-b830-73a1f1a6098a.png)
 
 ## TABLE OF CONTENTS
 
