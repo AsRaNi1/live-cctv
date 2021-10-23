@@ -42,7 +42,6 @@ MAIN BRANCH
  ┣ 📜Eklavya (Neural Networks).docx             #Notes on Basics of Neural Networks
  ┗ 📜Handwritten_Notes.pdf                      #Handwritten notes on all topics
  
-DEV BRANCH
 📦Old_Live-CCTV                              #Contains the previously written code that uses Contour Detection                              
  ┣ 📂Other Methods                              #Contains a python notebook for reference to other methods of similarity checking in frames
  ┃ ┗ 📜Other Methods.ipynb                         #Python notebook for other methods
