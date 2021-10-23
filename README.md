@@ -151,3 +151,4 @@ A very special thanks to our mentors!!
 * [Computer Vision basics](https://towardsdatascience.com/computer-vision-for-beginners-part-4-64a8d9856208)
 * [Contour Detection](https://learnopencv.com/contour-detection-using-opencv-python-c/)
 * [More Computer Vision](https://www.pyimagesearch.com/)
+* [Report for the Project](https://github.com/AsRaNi1/live-cctv/blob/master/assets/LiveCCTV_Report.pdf)
