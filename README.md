@@ -36,30 +36,30 @@ The project uses:
 ### File Structure
 ```
 MAIN BRANCH
-📦Eklavya (Live-CCTV)
- ┣ 📜CNN (Eklavya).docx
- ┣ 📜Eklavya (Linear Algebra).docx
- ┣ 📜Eklavya (Neural Networks).docx
- ┗ 📜Handwritten_Notes.pdf
+📦Eklavya (Live-CCTV)                        #Contains the notes for reference 
+ ┣ 📜CNN (Eklavya).docx                         #Notes on Convolutional Neural Networks
+ ┣ 📜Eklavya (Linear Algebra).docx              #Notes on Linear Algebra
+ ┣ 📜Eklavya (Neural Networks).docx             #Notes on Basics of Neural Networks
+ ┗ 📜Handwritten_Notes.pdf                      #Handwritten notes on all topics
  
 DEV BRANCH
-📦Old_Live-CCTV
- ┣ 📂Other Methods
- ┃ ┗ 📜Other Methods.ipynb
- ┣ 📜ContourDetection.py
- ┣ 📜Euclidean_dist.py
- ┣ 📜Old_Main.py
- ┗ 📜Read.me.txt
+📦Old_Live-CCTV                              #Contains the previously written code that uses Contour Detection                              
+ ┣ 📂Other Methods                              #Contains a python notebook for reference to other methods of similarity checking in frames
+ ┃ ┗ 📜Other Methods.ipynb                         #Python notebook for other methods
+ ┣ 📜ContourDetection.py                        #Python file for Contour Detection
+ ┣ 📜Euclidean_dist.py                          #Python file for calculating Euclidean Distance between 2 consecutive frames of a video
+ ┣ 📜Old_Main.py                                #The Main python file for execution of the code
+ ┗ 📜Read.me.txt                                #A Readme for instructions
  
-📦Improved_Live-CCTV
- ┣ 📜Bounding_boxes.py
- ┣ 📜coco.txt
- ┣ 📜Euclidean_dist.py
- ┣ 📜Main.py
- ┣ 📜Read.me.txt
- ┣ 📜test.mp4
- ┣ 📜yolov3-tiny.weights
- ┗ 📜yolov3.cfg
+📦Improved_Live-CCTV                         #Contains New code for Object Classification, Uses the pre-trained Yolo Model                     
+ ┣ 📜Bounding_boxes.py                          #Python file for the Bounding Box and Object Classification
+ ┣ 📜coco.txt                                   #A text filr containing all the labels
+ ┣ 📜Euclidean_dist.py                          #Python file for calculating Euclidean Distance between 2 consicutive frames of a video
+ ┣ 📜Main.py                                    #The Main Python file for the execution fo the code
+ ┣ 📜Read.me.txt                                #A Readme for instructions
+ ┣ 📜test.mp4                                   #A test video provided
+ ┣ 📜yolov3-tiny.weights                        #Pre-trained weights for the code
+ ┗ 📜yolov3.cfg                                 #Yolov3 Configuration file
  ```
 
 
