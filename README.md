@@ -40,14 +40,25 @@ The project uses:
 ### File Structure
 ```
 MAIN BRANCH
-📦Eklavya (Live-CCTV)                        #Contains the notes for reference 
- ┣ 📜CNN (Eklavya).docx                         #Notes on Convolutional Neural Networks
- ┣ 📜Eklavya (Linear Algebra).docx              #Notes on Linear Algebra
- ┣ 📜Eklavya (Neural Networks).docx             #Notes on Basics of Neural Networks
- ┗ 📜Handwritten_Notes.pdf                      #Handwritten notes on all topics
+📦Notes                                    -Contains the notes for reference 
+ ┣ 📜CNN (Eklavya).pdf                         -Notes on Convolutional Neural Networks
+ ┣ 📜Eklavya (Linear Algebra).pdf              -Notes on Linear Algebra
+ ┣ 📜Eklavya (Neural Networks).pdf             -Notes on Basics of Neural Networks
+ ┗ 📜Handwritten_Notes.pdf                     -Handwritten notes on all topics
+ 
  
  📦assets
  ┗ 📜LiveCCTV_Report.pdf
+ 
+ 
+ ┣📜Bounding_Boxes.py
+ ┣📜Euclidean_dist.py
+ ┣📜Main.py
+ ┣📜Read.me.txt
+ ┣📜coco.txt
+ ┣📜test.mp4
+ ┣📜yolov3-tiny.weights
+ ┗📜yolov3.cfg
  ```
 
 
@@ -90,7 +101,10 @@ The project clearly identifies an object in the video frame and assigns a boundi
 * [**New Result Video**](Output_2.avi)
 
 
-![5rit9d](https://user-images.githubusercontent.com/84843295/138553930-861867f4-51e6-43ba-9e5e-4348006eda79.gif)
+https://user-images.githubusercontent.com/84843295/138560049-29434b6b-98aa-49ba-bfe9-dc1a5cb64e07.mp4
+
+![result](https://user-images.githubusercontent.com/84843295/138560124-771e0b03-b55f-4eb2-b90f-5f4afc485249.png)
+
 
 
 
