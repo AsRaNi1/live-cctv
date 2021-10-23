@@ -23,8 +23,11 @@ To detect any reasonable change in a live cctv to avoid large storage of data. O
 
 ## About The Project
 
-Aim and Description of project:
-The project aims at storing only relevant data in a CCTV camera (in this case a traffic camera) to prevent storage loss and also detects the object that is causing the change in a frame and classifies them
+###Aim 
+The project aims at storing only relevant data in a CCTV camera (in this case a traffic camera) to prevent storage loss and also detects the object that is causing the change in a frame and classifies them.
+
+###Description
+The project uses Yolov3 pre-trained weights and config file. It calculates the distance between 2 consecutive frames of a video and then records if the change found is relevant. It further uses the OpenCV library's DNN module to load the Yolov3 weights and then classifies the object in front of the camera, also encloses the object detected with a bounding box
 
 ### Tech Stack
 The project uses:
