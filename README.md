@@ -99,8 +99,6 @@ Output path:
 
 ## Results and Demo
 The project clearly identifies an object in the video frame and assigns a bounding box to it along with labels i.e classifying the object, it also records the relevant motion taking place in the video. The video is saved in the **Path** folder.  
-* [**Result Screenshot**](result.png)
-* [**New Result Video**](Output_2.avi)
 
 
 https://user-images.githubusercontent.com/84843295/138560049-29434b6b-98aa-49ba-bfe9-dc1a5cb64e07.mp4
