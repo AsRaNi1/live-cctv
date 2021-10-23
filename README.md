@@ -34,8 +34,15 @@ The project uses:
 * [numpy](https://numpy.org/)
 
 ### File Structure
-File structure in dev branch.
 ```
+MAIN BRANCH
+📦Eklavya (Live-CCTV)
+ ┣ 📜CNN (Eklavya).docx
+ ┣ 📜Eklavya (Linear Algebra).docx
+ ┣ 📜Eklavya (Neural Networks).docx
+ ┗ 📜Handwritten_Notes.pdf
+ 
+DEV BRANCH
 📦Old_Live-CCTV
  ┣ 📂Other Methods
  ┃ ┗ 📜Other Methods.ipynb
