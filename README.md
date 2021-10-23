@@ -48,17 +48,19 @@ MAIN BRANCH
  
  
  📦assets
- ┗ 📜LiveCCTV_Report.pdf
+ ┣ 📜LiveCCTV_Report.pdf                       -Report on the project
+ ┣ 📜Output.mp4                                -Output video from test.mp4
+ ┗ 📜result.png                                -Result on an image
  
  
- ┣📜Bounding_Boxes.py
- ┣📜Euclidean_dist.py
- ┣📜Main.py
- ┣📜Read.me.txt
- ┣📜coco.txt
- ┣📜test.mp4
- ┣📜yolov3-tiny.weights
- ┗📜yolov3.cfg
+ ┣📜Bounding_Boxes.py                          -Python file, contains function for Object Classification, Labeling them and further bounding them
+ ┣📜Euclidean_dist.py                          -Python file, Containing the function to calculate Euclidean Distance between 2 consecutive frames of a video
+ ┣📜Main.py                                    -The Main Python file that exexutes the code
+ ┣📜Read.me.txt                                -Contains the instructions
+ ┣📜coco.txt                                   -Contains the labels for the objects that it detects
+ ┣📜test.mp4                                   -Testing video
+ ┣📜yolov3-tiny.weights                        -Pre-trained Yolov3 weights
+ ┗📜yolov3.cfg                                 -Pre-trained Yolov3 Configuration file
  ```
 
 
