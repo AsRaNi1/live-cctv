@@ -8,6 +8,8 @@ To detect any reasonable change in a live cctv to avoid large storage of data. O
 * [About the Project](#about-the-project)
   * [Tech Stack](#tech-stack)
   * [File Structure](#file-structure)
+* [Approach](#approach)
+* [Theory](#theory)
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
@@ -62,6 +64,10 @@ MAIN BRANCH
 ┣📜yolov3-tiny.weights                         -Pre-trained Yolov3 weights
 ┗📜yolov3.cfg                                  -Pre-trained Yolov3 Configuration file
  ```
+ 
+
+##Approach
+
 
 
 ## Getting Started
