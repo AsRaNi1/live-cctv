@@ -66,8 +66,27 @@ MAIN BRANCH
  ```
  
 
-##Approach
+## Approach
+The approach of this project is to basically record relevant changes in a video. By checking the similarity between 2 consecutive frames of a video we can decide wether a change is relevant or no based on the magnitude of similarity.
 
+## Theory
+
+### Neural Networks
+A neural network is a network or circuit of neurons, or in a modern sense, an artificial neural network, composed of artificial neurons or nodes.
+
+There are different types of Neural Networks:
+* Standard Neural Networks
+* Convolutional Neural Networks
+
+### Euclidean distance
+It is a method to calcuate the distance between 2 vectors in a given space. In the project Euclidean distance is used to calculate distance between image vectors of 2 consecutive frames of the video.
+![image](https://user-images.githubusercontent.com/84843295/138587481-d08a0e9e-289e-47b9-bdad-9e198485e1cd.png)
+
+### Yolo
+The Yolo algorithm or You Only Look Once algorithm, is an object classification algorithm that divides the image into small rids and applies object classification to each of them. The algorithm then assigns bounding boxes to the objects which further uses NMS(Non-Max Supression).
+
+## Flowchart
+![Flowchart](https://user-images.githubusercontent.com/84843295/138587595-842bf43a-01a9-4c21-91bc-0309bb0991aa.png)
 
 
 ## Getting Started
