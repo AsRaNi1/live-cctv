@@ -85,7 +85,7 @@ It is a method to calcuate the distance between 2 vectors in a given space. In t
 ### Yolo
 The Yolo algorithm or You Only Look Once algorithm, is an object classification algorithm that divides the image into small rids and applies object classification to each of them. The algorithm then assigns bounding boxes to the objects which further uses NMS(Non-Max Supression).
 
-## Flowchart
+### Flowchart for code execution
 ![Flowchart](https://user-images.githubusercontent.com/84843295/138587595-842bf43a-01a9-4c21-91bc-0309bb0991aa.png)
 
 
