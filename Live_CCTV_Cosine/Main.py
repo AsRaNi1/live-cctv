@@ -24,11 +24,11 @@ old_frame_rgb = cv2.cvtColor(old_frame,cv2.COLOR_BGR2RGB)
 old_frame_pil = Image.fromarray(old_frame_rgb)
 
 
-net = cv2.dnn.readNet('yolov3-tiny.weights', 'yolov3.cfg')
+net = cv2.dnn.readNet('yolov3-tiny.weights', 'yolo.cfg')
     
 classes = []
 
-with open('coco.txt', 'r') as f:
+with open('labels.txt', 'r') as f:
     classes = f.read().splitlines()
 
 frame_width = int(cap.get(3))
