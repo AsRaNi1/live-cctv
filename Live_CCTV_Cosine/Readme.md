@@ -1,0 +1,1 @@
+This method is updated and uses pytorch to load the pr-trained resnet model and extract feature vectors of the frames, which are later appied in cosine similarity function to calculate the similarity
