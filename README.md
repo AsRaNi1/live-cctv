@@ -162,7 +162,6 @@ A very special thanks to our mentors!!
 <!-- CONTRIBUTORS -->
 ## Contributors
 * [Arnav Zutshi](https://github.com/AsRaNi1)
-* [Samiul Sheik](https://github.com/Codingsam164)
 
 
 
