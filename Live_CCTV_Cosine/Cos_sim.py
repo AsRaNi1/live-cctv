@@ -1,9 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
+#Cosine functions
 import torch
 import torch.nn as nn
 import torchvision.models as models
