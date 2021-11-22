@@ -48,6 +48,14 @@ MAIN BRANCH
  ┣ 📜Eklavya (Neural Networks).pdf             -Notes on Basics of Neural Networks
  ┗ 📜Handwritten_Notes.pdf                     -Handwritten notes on all topics
  
+📦Live_CCTV_Cosine
+ ┣📜Bounding_Boxes.py                           -Python file, contains function for Object Classification, Labeling them and further bounding them
+ ┣📜Cos_sim.py                                  -Python file, Containing the function to calculate Cosine Similarity between 2 consecutive frames of a video
+ ┣📜Main.py                                     -The Main Python file that exexutes the code
+ ┣📜labels.txt                                  -Contains the labels for the objects that it detects
+ ┣📜yolov3-tiny.weights                         -Pre-trained Yolov3 weights
+ ┗📜yolov3.cfg                                  -Pre-trained Yolov3 Configuration file
+ 
  
  📦assets
  ┣ 📜LiveCCTV_Report.pdf                       -Report on the project
