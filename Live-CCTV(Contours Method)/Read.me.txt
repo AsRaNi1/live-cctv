@@ -1,0 +1,15 @@
+The Other Methods file contains a python notebook with other methods of 
+difference detection between 2 consecutive frames of a video.
+
+Run ony the Old_Main.py file for old Live-CCTV methodology.
+
+
+The Euclidean_dist.py and ContourDetection.py contain functions that are called inside
+the Old_Main.py file
+
+Run the code in a prompt and input the Path of the file
+
+Use double backslash in path i.e
+instead of C:\Users\Path\Desktop\Old_Live-CCTV
+
+write C:\\Users\\Path\\Desktop\\Old_Live-CCTV
