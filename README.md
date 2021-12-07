@@ -160,7 +160,7 @@ The motion tracking algorithm the current project uses is derived from Eucidean 
   
 
 ## Mentors
-A very special thanks to our mentors!!
+A very special thanks to the mentors!!
 * [Harsh Shah](https://github.com/HarshShah03325)
 * [Kush Kothari](https://github.com/kkothari2001)
 * [Sahethi]()
